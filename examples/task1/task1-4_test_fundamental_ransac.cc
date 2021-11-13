@@ -18,6 +18,7 @@
 #include "sfm/fundamental.h"
 #include "sfm/correspondence.h"
 #include "math/matrix_svd.h"
+#include <cassert>
 
 typedef math::Matrix<double, 3, 3> FundamentalMatrix;
 
@@ -40,7 +41,9 @@ int  calc_ransac_iterations (double p,
 
     /** TODO HERE
      * Coding here**/
-    return 0;
+    int M = log(1 - z) / log(1 - pow(p, K));
+
+    return M;
 
 
     /** Reference
@@ -60,7 +63,7 @@ int  calc_ransac_iterations (double p,
  * @param m-- 匹配对
  * @return
  */
-double  calc_sampson_distance (FundamentalMatrix const& F, sfm::Correspondence2D2D const& m) {
+double  calc_sampson_distance (FundamentalMatrix const& F, sfm::Correspondence2D2D const& m/** m 为两匹配点，齐次坐标 **/) {
 
     double p2_F_p1 = 0.0;
     p2_F_p1 += m.p2[0] * (m.p1[0] * F[0] + m.p1[1] * F[1] + F[2]);
@@ -174,6 +177,12 @@ std::vector<int> find_inliers(sfm::Correspondences2D2D const & matches
      * TODO HERE
      *
      * Coding here **/
+    for(int i = 0; i < matches.size(); i++){
+        double err = calc_sampson_distance(F, matches[i]); // 计算所有的内点的距离
+        if(err < squared_thresh) {
+            inliers.push_back(i); // 记录满足的内点索引
+        }
+    }
 
     /** Reference
     for(int i=0; i< matches.size(); i++){

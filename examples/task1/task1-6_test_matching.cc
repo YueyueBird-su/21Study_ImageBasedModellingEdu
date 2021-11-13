@@ -118,7 +118,7 @@ feature_set_matching (core::ByteImage::Ptr image1, core::ByteImage::Ptr image2)
     /* 对sift特征描述子进行匹配 */
     // sift 特征描述子匹配参数
     sfm::Matching::Options sift_matching_opts;
-    sift_matching_opts.lowe_ratio_threshold = 0.8f;
+    sift_matching_opts.lowe_ratio_threshold = 0.4f;
     sift_matching_opts.descriptor_length = 128;
     sift_matching_opts.distance_threshold = std::numeric_limits<float>::max();
 
