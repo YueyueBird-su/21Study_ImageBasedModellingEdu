@@ -39,7 +39,7 @@
 
 ![image-20211112224430337](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211112224430337.png)
 
-***编程结果***[^1]见附录
+***编程结果***见附录
 
 ### Vec3d pos_in_world( )函数
 
@@ -102,7 +102,7 @@
 
 ![image-20211112231412332](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211112231412332.png)
 
-***编程结果***[^1]见附录
+***编程结果***见附录
 
 ## Task1.4 RANSAN
 
@@ -116,7 +116,7 @@
 
 ![image-20211113094120550](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211113094120550.png)
 
-***编程结果***[^1]见附录
+***编程结果***见附录
 
 ## Task1.5 求解相机参数
 
@@ -132,7 +132,7 @@
 
 ![image-20211113104517226](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211113104517226.png)
 
-***编程结果***[^1]见附录
+***编程结果***见附录
 
 ## Task1.6 特征匹配函数及算法
 
@@ -203,8 +203,6 @@ if (static_cast<float>(nn_result.dist_1st_best)
 8. 特征归一化
 
 # 附录：
-
-[^1]:编程结果
 
 task1.2
 
