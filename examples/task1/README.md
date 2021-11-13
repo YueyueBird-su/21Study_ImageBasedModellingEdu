@@ -102,7 +102,7 @@
 
 ![image-20211112231412332](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211112231412332.png)
 
-***编程结果***[^2]见附录
+***编程结果***[^1]见附录
 
 ## Task1.4 RANSAN
 
@@ -116,7 +116,7 @@
 
 ![image-20211113094120550](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211113094120550.png)
 
-***编程结果***[^3]见附录
+***编程结果***[^1]见附录
 
 ## Task1.5 求解相机参数
 
@@ -132,7 +132,7 @@
 
 ![image-20211113104517226](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211113104517226.png)
 
-***编程结果***[^4]见附录
+***编程结果***[^1]见附录
 
 ## Task1.6 特征匹配函数及算法
 
@@ -204,7 +204,9 @@ if (static_cast<float>(nn_result.dist_1st_best)
 
 # 附录：
 
-[^1]:task1.2
+[^1]:编程结果
+
+task1.2
 
 - [x] projection coord:
    0.208188 -0.035398
@@ -221,7 +223,7 @@ if (static_cast<float>(nn_result.dist_1st_best)
 
 ------
 
-[^2]:task1.3
+task1.3
 
 - [x] Fundamental matrix after singularity constraint is:
    -0.0315082 -0.63238 0.16121
@@ -234,7 +236,7 @@ if (static_cast<float>(nn_result.dist_1st_best)
 
 ------
 
-[^3]:task1.4
+task1.4
 
 - [x] inlier number: 272
   F
@@ -250,7 +252,7 @@ if (static_cast<float>(nn_result.dist_1st_best)
 
 ------
 
-[^4]:task1.5
+task1.5
 
 - [x] EssentialMatrix result is -0.00490744 -0.0146139 0.34281
   0.0212215 -0.000748851 -0.0271105
