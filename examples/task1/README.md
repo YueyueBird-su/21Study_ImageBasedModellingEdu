@@ -202,6 +202,8 @@ if (static_cast<float>(nn_result.dist_1st_best)
 7. 特征直方图计算
 8. 特征归一化
 
+![](https://gitee.com/lpengsu/pic-go/raw/master/img/example.sift.jpg)
+
 # 附录：
 
 task1.2

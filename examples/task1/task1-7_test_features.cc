@@ -89,9 +89,11 @@ main (int argc, char** argv)
 
     /* 保存图像文件名 */
     std::string sift_out_fname = "./tmp/" + util::fs::replace_extension
-        (util::fs::basename(image_filename), "sift.png");
+        (util::fs::basename(image_filename), "sift.jpg");
     std::cout << "保存图像: " << sift_out_fname << std::endl;
     core::image::save_file(sift_image, sift_out_fname);
+
+
 
     return 0;
 }
