@@ -85,9 +85,25 @@
 
 ![image-20211121210746134](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211121210746134.png)
 
+![微信图片_20211123232017](https://gitee.com/lpengsu/pic-go/raw/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211123232017.jpg)
+
+![](https://gitee.com/lpengsu/pic-go/raw/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211125115409.jpg)
+
 ## Task2.4 推导并实现雅可比矩阵
 
-> 待完成
+![](https://gitee.com/lpengsu/pic-go/raw/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20211125164607.jpg)
+
+![image-20211125165306174](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211125165306174.png)
+
+![image-20211125165329494](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211125165329494.png)
+
+![image-20211125165355713](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211125165355713.png)
+
+![image-20211125165423745](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211125165423745.png)
+
+![image-20211125165447553](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211125165447553.png)
+
+![image-20211125165512424](https://gitee.com/lpengsu/pic-go/raw/master/img/image-20211125165512424.png)
 
 ## Task2.5 双视SFM
 
@@ -101,12 +117,12 @@
 
 # 附录：编程结果
 
-## 附录1：
+## 附录1
 
 - [x]  trianglede point is :2.14598 -0.250569 6.92321
 - [ ]  the result should be 2.14598 -0.250569 6.92321
 
-## 附录2：
+## 附录2
 
 - [ ] inverse k matrix: 1.02857 0 0
 
@@ -176,7 +192,7 @@ The result pose should be:
 -0.0339703 0.999405 0.0059176 -4.6632
 0.0304104 -0.00488465 0.999526 -0.0283862
 
-## 附录3：
+## 附录3
 
 - [x] BA: #0  success, MSE 6.78947e-07 -> 5.44019e-08, CG  23, TRR 1000, MSE Ratio: 0.919873
   BA: #1  success, MSE 5.44019e-08 -> 5.17351e-08, CG  34, TRR 10000, MSE Ratio: 0.0490201
@@ -214,11 +230,29 @@ The result pose should be:
   -1.0112, -0.572129, 7.3779
   0.062655, -0.914864, 7.46404
 
-## 附录4：
+## 附录4
 
+​	**Result is :**
 
+- [x] cam_x_ptr: 0.19312 0.0123983 0.000847141 0.129284 0.000847456 -0.0253633 0.0255783 0.944413 0.161936 
 
-## 附录5：
+- [x] cam_y_ptr: -0.16782 -0.010774 -0.000736159 0.000847456 0.129523 0.0220405 -0.938992 -0.0240256 0.177293 
+
+- [x] point_x_ptr: 0.12925 0.000495992 -0.0255451
+
+- [x] point_y_ptr: 0.000963221 0.129745 0.02069
+
+  **Result should be :**
+
+- [x] cam_x_ptr: 0.195942 0.0123983 0.000847141 0.131188 0.000847456 -0.0257388 0.0260453 0.95832 0.164303
+
+- [x] cam_y_ptr: -0.170272 -0.010774 -0.000736159 0.000847456 0.131426 0.0223669 -0.952795 -0.0244697 0.179883
+
+- [x] point_x_ptr: 0.131153 0.000490796 -0.0259232
+
+- [x] point_y_ptr: 0.000964926 0.131652 0.0209965
+
+## 附录5
 
 - [x] Loading ./examples/data/sequence/IMG_0191.JPG...
   Loading ./examples/data/sequence/IMG_0192.JPG...

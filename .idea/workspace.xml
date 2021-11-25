@@ -49,11 +49,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08155804-328d-42e4-b20e-96f75a0af12d" name="Default Changelist" comment="solve task2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/task2/task2-1_test_triangle.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/task2-1_test_triangle.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/task2/task2-2_test_p3p_kneip.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/task2-2_test_p3p_kneip.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/task2/task2-3_test_lm_optimize.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/task2-3_test_lm_optimize.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/task2/task2-5_test_bundle_adjustment.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/task2-5_test_bundle_adjustment.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/task2/test_ba.txt" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/test_ba.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/task2/task2-4_test_jacobian.cc" beforeDir="false" afterPath="$PROJECT_DIR$/examples/task2/task2-4_test_jacobian.cc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,7 +160,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="inlay.hints.ObjectiveC" />
   </component>
-  <component name="RunManager" selected="CMake 应用程序.task2-2_test_p3p_kneip">
+  <component name="RunManager" selected="CMake 应用程序.task2-4_test_jacobian">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -438,7 +435,11 @@
       <workItem from="1637162525891" duration="1935000" />
       <workItem from="1637198730148" duration="1214000" />
       <workItem from="1637320683327" duration="6939000" />
-      <workItem from="1637392563440" duration="6195000" />
+      <workItem from="1637392563440" duration="6850000" />
+      <workItem from="1637491542125" duration="2884000" />
+      <workItem from="1637741216240" duration="373000" />
+      <workItem from="1637831336355" duration="3616000" />
+      <workItem from="1637846836629" duration="4302000" />
     </task>
     <task id="LOCAL-00001" summary="Add all the basic library and the sample code for class1">
       <created>1610359674091</created>
@@ -622,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637420892010</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="solve task2">
+      <created>1637420944806</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1637420944806</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
