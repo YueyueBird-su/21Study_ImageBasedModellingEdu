@@ -31,8 +31,4 @@
 
 ## Task 5.5 NCC的微分表达以及Patch优化的推导公式
 
-## Task 5.5 NCC的微分表达以及Patch优化的推导公式
-
-## Task 5.5 NCC的微分表达以及Patch优化的推导公式
-
 ![image-20211224210639877](https://gitee.com/lpengsu/pic-go/raw/master/originalHost:%20'gitee.com',/image-20211224210639877.png)
