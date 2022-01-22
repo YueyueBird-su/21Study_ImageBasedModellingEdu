@@ -233,9 +233,9 @@ int main(int argc, char **argv) {
                 char validity_mask_name[255];
                 char blending_mask_name[255];
 
-                sprintf(image_name,"examples/task7/texture_patches_init/texture_patch%d.jpg", i);
-                sprintf(blending_mask_name,"examples/task7/texture_patches_init/blending_mask%d.jpg", i);
-                sprintf(validity_mask_name,"examples/task7/texture_patches_init/validity_mask%d.jpg", i);
+                sprintf(image_name,"./examples/task7/texture_patches_init/texture_patch%d.jpg", i);
+                sprintf(blending_mask_name,"./examples/task7/texture_patches_init/blending_mask%d.jpg", i);
+                sprintf(validity_mask_name,"./examples/task7/texture_patches_init/validity_mask%d.jpg", i);
 
                 core::FloatImage::Ptr image = texture_patches[i]->get_image()->duplicate();
                 core::ByteImage::Ptr validity_mask = texture_patches[i]->get_validity_mask()->duplicate();
@@ -280,9 +280,9 @@ int main(int argc, char **argv) {
                     char validity_mask_name[255];
                     char blending_mask_name[255];
 
-                    sprintf(image_name,"examples/task7/texture_pathes_color_adjustment/texture_patch%d.jpg", i);
-                    sprintf(blending_mask_name,"examples/task7/texture_pathes_color_adjustment/blending_mask%d.jpg", i);
-                    sprintf(validity_mask_name,"examples/task7/texture_pathes_color_adjustment/validity_mask%d.jpg", i);
+                    sprintf(image_name,"./examples/task7/texture_pathes_color_adjustment/texture_patch%d.jpg", i);
+                    sprintf(blending_mask_name,"./examples/task7/texture_pathes_color_adjustment/blending_mask%d.jpg", i);
+                    sprintf(validity_mask_name,"./examples/task7/texture_pathes_color_adjustment/validity_mask%d.jpg", i);
 
                     core::FloatImage::Ptr image = texture_patches[i]->get_image()->duplicate();
                     core::ByteImage::Ptr validity_mask = texture_patches[i]->get_validity_mask()->duplicate();
